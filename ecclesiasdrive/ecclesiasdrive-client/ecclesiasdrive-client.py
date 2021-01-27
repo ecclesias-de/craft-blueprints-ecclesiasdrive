@@ -16,14 +16,14 @@ class subinfo(info.infoclass):
     def setTargets(self):
         self.versionInfo.setDefaultValues(tarballUrl="https://download.ecclesiasdrive.com/desktop/stable/ecclesiasdriveclient-${VERSION}.tar.xz",
                                           tarballInstallSrc="ecclesiasdriveclient-${VERSION}",
-                                          gitUrl="[git]https://github.com/ecclesias-de/ecclesiasdrive")
+                                          gitUrl="[git]https://github.com/ecclesias-de/ecclesias.drive")
 
         # we don't have that branche yet
         self.svnTargets["2.8"] = self.svnTargets["master"]
 
         self.description = "ecclesiasdrive Desktop Client"
         self.displayName = "ecclesiasdrive"
-        self.webpage = "https://github.com/ecclesias-de/ecclesiasdrive"
+        self.webpage = "https://github.com/ecclesias-de/ecclesias.drive"
 
     def setDependencies(self):
         self.buildDependencies["craft/craft-blueprints-ecclesiasdrive"] = None
