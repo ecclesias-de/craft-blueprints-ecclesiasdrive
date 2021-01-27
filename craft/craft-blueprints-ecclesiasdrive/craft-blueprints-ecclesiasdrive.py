@@ -3,9 +3,9 @@ import info
 
 class subinfo(info.infoclass):
     def setTargets(self):
-        for ver in ["2.7.1-tine20drive"]:
-            self.svnTargets[ver] = f"[git]https://github.com/tine20/craft-blueprints-tine20Drive.git|{ver}|"
-        self.defaultTarget = "2.7.1-tine20drive"
+        for ver in ["2.7.1-ecclesiasdrive"]:
+            self.svnTargets[ver] = f"[git]https://github.com/ecclesias-de/craft-blueprints-ecclesiasdrive.git|{ver}|"
+        self.defaultTarget = "2.7.1-ecclesiasdrive"
 
     def setDependencies(self):
         self.buildDependencies["craft/craft-core"] = "default"
