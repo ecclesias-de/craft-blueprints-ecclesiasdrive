@@ -1,3 +1,3 @@
-# craft-blueprints-owncloud
-* craft --add-blueprint-repository https://github.com/owncloud/craft-blueprints-owncloud.git
-* craft owncloud-client
+# craft-blueprints-ecclesiasdrive
+* craft --add-blueprint-repository https://github.com/ecclesias-de/craft-blueprints-ecclesiasdrive.git
+* craft ecclesiasdrive-client

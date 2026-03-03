@@ -5,9 +5,9 @@ from CraftCore import CraftCore
 
 class subinfo(info.infoclass):
     def setTargets(self):
-        for ver in ["master", "6", "5"]:
-            self.svnTargets[ver] = f"[git]https://github.com/owncloud/craft-blueprints-owncloud.git|{ver}|"
-        self.defaultTarget = "master"
+        for ver in ["6.0.3-ecclesiasdrive"]:
+            self.svnTargets[ver] = f"[git]https://github.com/ecclesias-de/craft-blueprints-ecclesiasdrive.git|{ver}|"
+        self.defaultTarget = "6.0.3-ecclesiasdrive"
 
     def setDependencies(self):
         self.buildDependencies["craft/craft-core"] = "default"
